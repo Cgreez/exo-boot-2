@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <!--------------- NAVBAR --------------->
+    <!------------------------------- NAVBAR ------------------------------>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-info">
             <div class="container-fluid">
-                <!-- Image and text -->
+                <!---------------------------------- Image and text ---------------------------->
                 <nav class="navbar navbar-light bg-light">
                     <div class="container">
                       <a class="navbar-brand" href="#">
@@ -19,6 +20,7 @@
                       </a>
                     </div>
                   </nav>
+                  <!------------------------------------- BUTTONS --------------------------------------->
                 <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -35,10 +37,79 @@
             </div>
           </nav>
     </header>
-    <section>
 
+    <section class="container">
+        <!---------------------------------- TWITTER ----------------------------------->
+        <div class="row py-5">
+            <div class="col d-flex justify-content-center p-0">
+                <img src="./assets/img/twitter_bootstrap-wallpaper-1920x1200.jpg" alt="" height="400px" width="100% m-0">
+            </div>
+        </div>
+        <!--------------------------------------- CARTES ------------------------------------------------->
+        <div class="row my-5 d-block bg-secondary">
+            <!-------------------------------------- CARTES DU HAUT  ----------------------------------------->
+            <div class="d-flex justify-content-around mb-5">
+                <div class="d-flex">
+                    <div>
+                        <img src="./assets/img/team-1.png" alt="" height="150px">
+                    </div>
+                    <div class="ms-3">
+                        <h3>nom</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <img src="./assets/img/team-1.png" alt="" height="150px">
+                    </div>
+                    <div class="ms-3">
+                        <h3>nom</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+            <!-------------------------------------- CARTES DU BAS ------------------------------->
+            <div class="d-flex justify-content-around">
+                <div class="d-flex">
+                    <div>
+                        <img src="./assets/img/team-1.png" alt="" height="150px">
+                    </div>
+                    <div class="ms-3">
+                        <h3>nom</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div>
+                        <img src="./assets/img/team-1.png" alt="" height="150px">
+                    </div>
+                    <div class="ms-3">
+                        <h3>nom</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!---------------------------------------- FOOTER  -------------------------------------->
     <footer>
+
+        <div class="d-flex row bg-info align-itemps-center justify-content-center pb-5">
+
+            <div class="col-6 text-center mt-5">
+                <h3>titre</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate incidunt perferendis accusantium alias quidem iste?</p>
+            </div>
+
+            <div class="col-6 mt-5">
+                <form class="d-flex justify-content-center">
+                    <input class="form-control me-2 w-25" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+
+        </div>
 
     </footer>
     
